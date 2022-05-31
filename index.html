@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./uikit/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Carbon</title>
+</head>
+<body>
+    <div class="wrapp">
+        <!--BACKGROUND START-->
+        <div class="uk-container uk-overflow-hidden  uk-light">        
+            <picture class="uk-flex uk-flex-middle">
+                <source srcset="images/carbon_4_gradient1.png" media="(min-width: 600px)" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                <img src="images/carbon_4_gradient1.png" alt="MDN" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+            </picture>
+        </div>  
+        <!--BACKGROUND END-->  
+        
+        <!--FORMA START-->
+    <div class="uk-background-fixed uk-background-center-center " style="background-image: url(images/big.png); background-size: contain; background-repeat: no-repeat;">
+        <div class="uk-container uk-flex uk-flex-center uk-margin" >
+            <form action="">
+                <div class="uk-margin">
+                    <legend class="uk-form-label" style="color: white;">Ваше ФИО:</legend>
+                    <input class="uk-input" name="name" type="text" pla>
+                </div>
+                <div class="uk-margin">
+                    <legend class="uk-form-label" style="color: white;">Ваш E-Mail:</legend>
+                    <input class="uk-input" name="email" type="email">
+                </div>
+                <div class="uk-margin">
+                    <legend class="uk-form-label" style="color: white;">Ваш номер телефона:</legend>
+                    <input class="uk-input" name="phone" type="phone" placeholder="+375">
+                </div>
+                <div class="uk-margin">
+                    <legend class="uk-form-label" style="color: white;">Регион в котором Вы находитесь:</legend>
+                    <input class="uk-input" type="text" placeholder="Например: Минская обл">
+                </div>
+                <legend class="uk-form-label"><h3  style="color: white;">Выберете продукцию, которая вам интересна</h3></legend>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid uk-flex uk-flex-column">
+                    <label style="color: white;"><input class="uk-checkbox" type="checkbox"> Средство для глубокого очищения кожи головы Lerato scalp cream</label>
+                    <label style="color: white;"><input class="uk-checkbox" type="checkbox"> Угольный спрей-термозащита для волос Lerato carbon protective spray</label>
+                    <label style="color: white;"><input class="uk-checkbox" type="checkbox"> Угольная маска для волос, страдающих от химических процедур и стресс-факторов lerato carbon mask</label>
+                    <label style="color: white;"><input class="uk-checkbox" type="checkbox"> Угольный шампунь глубокой очистки волос Lerato carbon cleaning</label>
+                </div>
+                <button class="uk-button" type="submit">Отправить</button>
+                <p style="color: white;"><span>*</span>Нажимая на кнопку отправить Вы даете согласие на обработку Ваших персональных
+                    данных</p>
+            </form>
+        </div>
+    </div>
+        <!--FORMA END-->
+
+        <!--FOOTER START-->
+        <div class="uk-section" style="background: black;">
+            <div class="uk-container uk-flex uk-flex-middle uk-flex-between">
+                <div>
+                    <p>Изготовитель: ООО “АЛЬНИЛАМ”</p>
+                    <p>Адрес: Улица Фабрициуса 2</p>
+                    <p>© Lerato Cosmetic 2022</p>
+                </div>
+                <div>
+                    <div class="uk-flex ">
+                       <a href="https://t.me/leratocosmetic"><img  src="images/tg.png" alt=""></a>
+                       <a href="https://www.tiktok.com/@lerato.cosmetic"><img src="images/tt.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER END-->
+    </div>
+    <script src="./uikit/dist/js/uikit.min.js"></script>
+    <script src="./uikit/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
